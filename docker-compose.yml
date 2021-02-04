@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  sf3:
+    build: .
+    volumes:
+      - ./env:/env
