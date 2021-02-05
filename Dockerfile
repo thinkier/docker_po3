@@ -8,7 +8,7 @@ COPY init.sh init.sh
 RUN chmod +x init.sh
 
 WORKDIR /app/mods
-RUN curl -O https://repo.spongepowered.org/maven/org/spongepowered/spongeforge/1.10.2-2477-5.2.0-BETA-2793/spongeforge-1.10.2-2477-5.2.0-BETA-2793.jar
+RUN curl -O https://repo.spongepowered.org/maven/org/spongepowered/spongeforge/1.12.2-2838-7.3.0/spongeforge-1.12.2-2838-7.3.0.jar
 
 WORKDIR /env
 
