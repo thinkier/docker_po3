@@ -1,6 +1,8 @@
 #!/bin/sh
 
-unzip /tmp/sf3.zip
+unzip /tmp/po3.zip
+cp /app/mods/*.jar ./mods/
 chmod +x Install.sh ServerStart.sh
+
 ./Install.sh
 ./ServerStart.sh
