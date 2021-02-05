@@ -5,7 +5,7 @@ RUN curl https://media.forgecdn.net/files/3077/771/PO3+-+3.3.61server.zip > po3.
 
 WORKDIR /app
 COPY init.sh init.sh
-RUN curl -O https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2838/forge-1.12.2-14.23.5.2838-universal.jar
+RUN curl -O https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2838/forge-1.12.2-14.23.5.2838-installer.jar
 RUN chmod +x init.sh
 
 WORKDIR /app/mods
